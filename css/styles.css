@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #0f1c2d;
+  color: white;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 900px;
+
+  margin: 40px auto;
+}
+
+.perfil {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.foto {
+  width: 120px;
+  height: 120px;
+
+  background: #34d17b;
+
+  border-radius: 50%;
+
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 55px;
+
+  color: #3b246b;
+
+  margin-bottom: 25px;
+
+  box-shadow: 0 0 15px #34d17b;
+}
+
+.perfil h1 {
+  color: #44e67f;
+
+  font-size: 55px;
+
+  margin-bottom: 15px;
+}
+
+.cargo {
+  letter-spacing: 4px;
+
+  color: #36b36f;
+
+  font-size: 24px;
+}
+
+.informacion {
+  margin-top: 50px;
+
+  background: #172636;
+
+  border: 1px solid #2b8a5a;
+
+  border-radius: 20px;
+
+  padding: 35px;
+}
+
+.informacion h2 {
+  color: #37b46b;
+
+  margin-bottom: 30px;
+
+  letter-spacing: 2px;
+
+  font-size: 26px;
+}
+
+.fila {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 20px 0;
+
+  border-bottom: 1px solid #2c3f52;
+}
+
+.fila:last-child {
+  border: none;
+}
+
+.fila span {
+  color: #9da8b5;
+
+  font-size: 22px;
+}
+
+.fila strong {
+  font-size: 22px;
+
+  color: #dfe8ef;
+}
+
+/*=========================
+    SOBRE MÍ
+==========================*/
+
+.sobre-mi {
+  margin-top: 35px;
+
+  background: #172636;
+
+  border: 1px solid #2b8a5a;
+
+  border-radius: 20px;
+
+  padding: 35px;
+}
+
+.sobre-mi h2 {
+  color: #37b46b;
+
+  margin-bottom: 25px;
+
+  letter-spacing: 2px;
+
+  font-size: 26px;
+}
+
+.sobre-mi p {
+  color: #cfd8dc;
+
+  line-height: 1.8;
+
+  font-size: 24px;
+
+  margin-bottom: 25px;
+}
+
+.codigo {
+  background: #0d1a27;
+
+  border: 1px solid #2b8a5a;
+
+  border-radius: 10px;
+
+  padding: 15px 20px;
+}
+
+.codigo code {
+  color: #57ff8f;
+
+  font-size: 20px;
+
+  font-family: Consolas, monospace;
+}
